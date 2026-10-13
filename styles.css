@@ -2,9 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, "Times-new-roman";
+    height: 100vh;
 }
 .first-section {
     background-color: #383e93;
+    flex: 1;
 }
 .upper-container {
     display:flex;
@@ -34,4 +36,38 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3e9338;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.big {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 700;
+}
+.horizontal {
+    display: flex;
+    gap: 10px;
+}
+.horizontal div {
+    border: 3px solid rgb(5, 147, 255);
+    height: 100px;
+    flex: 1;
+}
+
+.second-ul li {
+    height: 100px;
+}
+.third-section {
+    flex: 1;
+    background-color: aquamarine;
+}
+.last-section {
+    flex: 1;
+    background-color: blanchedalmond;
 }
