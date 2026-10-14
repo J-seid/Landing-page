@@ -1,34 +1,48 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Roboto, "Times-new-roman";
-    height: 100vh;
+    font-family: roboto, "Times-new-roman";
+    padding: 0;
+    margin: 0;
 }
 .first-section {
-    background-color: #383e93;
-    flex: 1;
+    background-color: #1F2937;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    padding: 10px 180px;
+    height: 550px;
 }
 .upper-container {
     display:flex;
     justify-content: space-between;
+    margin-bottom: 200px;
 }
 .header {
-    font-size:x-large;
+    font-size: 24px;
     font-weight: 700;
+    color: #F9FAF8
 }
 ul {
     display: flex;
     list-style-type: none;
+    gap: 20px;
 }
 a {
     text-decoration: none;
-    color:black;
+    color:#E5E7EB
 }
 .huge {
-    font-size: xx-large;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.below-huge {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .two-sides {
     display: flex;
+    justify-content: space-between;
 }
 .image-holder {
     width: 300px;
@@ -36,13 +50,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3e9338;
+    background-color: #a8aca8;
 }
 
 .second-section {
     display: flex;
     flex-direction: column;
     flex: 1;
+    box-sizing: border-box;
+    padding: 10px 80px;
 }
 .big {
     display: flex;
@@ -53,6 +69,8 @@ a {
 .horizontal {
     display: flex;
     gap: 10px;
+    box-sizing: border-box;
+    padding: 0 60px;
 }
 .horizontal div {
     border: 3px solid rgb(5, 147, 255);
@@ -65,9 +83,23 @@ a {
 }
 .third-section {
     flex: 1;
-    background-color: aquamarine;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.Ahmed {
+    margin-left: auto;
 }
 .last-section {
     flex: 1;
-    background-color: blanchedalmond;
+    background-color: #3882F6;
+}
+.footer {
+    background-color: #1F2937;
+
 }
