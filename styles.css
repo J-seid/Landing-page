@@ -9,13 +9,12 @@ body {
     background-color: #1F2937;
     flex: 1 0 auto;
     box-sizing: border-box;
-    padding: 10px 180px;
-    height: 550px;
+    padding: 10px 280px;
 }
 .upper-container {
     display:flex;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .header {
     font-size: 24px;
@@ -43,14 +42,25 @@ a {
 .two-sides {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 .image-holder {
-    width: 300px;
+    width: 500px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #a8aca8;
+}
+button {
+    cursor: pointer;
+  padding: 4px 20px;
+  border-radius: 8px;
+}
+button.sign-up {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    color: #F9FAF8;
 }
 
 .second-section {
@@ -58,34 +68,48 @@ a {
     flex-direction: column;
     flex: 1;
     box-sizing: border-box;
-    padding: 10px 80px;
+    padding: 10px 280px;
+    margin-bottom: 80px;
 }
 .big {
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size:xx-large;
     font-weight: 700;
+    padding: 40px;
 }
 .horizontal {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     box-sizing: border-box;
     padding: 0 60px;
 }
 .horizontal div {
     border: 3px solid rgb(5, 147, 255);
-    height: 100px;
+    height: 150px;
     flex: 1;
+    border-radius: 10px;
 }
 
-.second-ul li {
-    height: 100px;
+.second-ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 60px;
+}
+.comment {
+    color:#6f736f;
+
 }
 .third-section {
-    flex: 1;
+    
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 320px;
 }
 .quote {
     font-size: 36px;
@@ -93,6 +117,8 @@ a {
     font-style: italic;
 }
 .Ahmed {
+    font-size: x-large;
+    font-weight: 500;
     margin-left: auto;
 }
 .last-section {
