@@ -122,8 +122,25 @@ button.sign-up {
     margin-left: auto;
 }
 .last-section {
-    flex: 1;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-color {
+    display: flex;
+    box-sizing: border-box;
     background-color: #3882F6;
+    border-radius: 8px;
+    width: 1000px;
+    height: 120px;
+}
+button.sign-up-again {
+    cursor: pointer;
+  padding: 4px 20px;
+  border-radius: 8px;
+  background-color: #3882F6;
+  border: solid 2px white
 }
 .footer {
     background-color: #1F2937;
